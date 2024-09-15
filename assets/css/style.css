@@ -1,0 +1,745 @@
+* {
+  margin: 0;
+  padding: 0;
+  block-size: border-box;
+  font-family: Cormorant;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #FBF6F6;
+  color: #504949;
+}
+
+.shapka {
+  display: flex;
+  justify-content: center;
+}
+.shapka_burger {
+  display: none;
+}
+@media (max-width: 1025px) {
+  .shapka_burger {
+    display: block;
+    padding: 51px 40px 0 0;
+  }
+}
+.shapka_kamil {
+  padding-top: 96px;
+  width: 1170px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media (max-width: 1025px) {
+  .shapka_kamil {
+    padding: 0;
+  }
+}
+.shapka_nab {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media (max-width: 1025px) {
+  .shapka_nab {
+    display: none;
+  }
+}
+.shapka_predm {
+  padding-left: 39px;
+}
+.shapka_predm:first-child {
+  padding: 0;
+}
+.shapka_ssilka {
+  color: #504949;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.osnova {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.osnova_kamil {
+  max-width: 1170px;
+  padding: 160px 132px;
+}
+@media (max-width: 1025px) {
+  .osnova_kamil {
+    max-width: 289px;
+    padding: 51px 37px;
+  }
+}
+.osnova_zagalovog {
+  padding-top: 5px;
+}
+.osnova_zagalovog_text {
+  font-size: 80px;
+  font-weight: 600;
+}
+@media (max-width: 1025px) {
+  .osnova_zagalovog_text {
+    font-size: 40px;
+  }
+}
+.osnova_zagalovog_com {
+  padding-left: 107px;
+  font-size: 18px;
+  font-weight: 700;
+}
+@media (max-width: 376px) {
+  .osnova_zagalovog_com {
+    padding: 0;
+  }
+}
+.osnova_podzagalovog {
+  line-height: 27px;
+  padding-top: 5px;
+  max-width: 553px;
+}
+@media (max-width: 376px) {
+  .osnova_podzagalovog {
+    max-width: 317px;
+  }
+}
+.osnova_podzagalovog_com {
+  line-height: 27px;
+  padding-top: 20px;
+  max-width: 566px;
+}
+@media (max-width: 376px) {
+  .osnova_podzagalovog_com {
+    max-width: 317px;
+  }
+}
+.osnova_inform {
+  display: flex;
+  padding-top: 7px;
+}
+@media (max-width: 376px) {
+  .osnova_inform {
+    max-width: 317px;
+  }
+}
+.osnova_inform_cont {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-weight: 400;
+  padding-left: 40px;
+}
+.osnova_inform_cont_zagalovog {
+  font-size: 50px;
+}
+.osnova_inform_cont_podzagalovog {
+  font-size: 18px;
+}
+.osnova_inform_cont:first-child {
+  padding: 0;
+}
+.osnova_preim {
+  padding-top: 38px;
+}
+@media (max-width: 376px) {
+  .osnova_preim {
+    max-width: 317px;
+  }
+}
+.osnova_preim_zagalovog {
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 517px;
+}
+.osnova_preim_conts {
+  padding-top: 17px;
+}
+.osnova_preim_cont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 419px;
+  font-weight: 400;
+}
+.osnova_preim_cont_zagalovog {
+  font-size: 50px;
+}
+@media (max-width: 376px) {
+  .osnova_preim_cont_zagalovog {
+    display: flex;
+    align-self: flex-start;
+    margin-top: -15px;
+  }
+}
+.osnova_preim_cont_podzagalovog {
+  line-height: 27px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.osnova_cont {
+  display: flex;
+}
+.osnova_cont_text {
+  display: flex;
+  flex-direction: column;
+}
+.osnova_photo {
+  padding: 17px 0 0 79px;
+  width: 45%;
+  height: 45%;
+}
+@media (max-width: 376px) {
+  .osnova_photo {
+    display: none;
+  }
+}
+.osnova_photo-mobile {
+  padding-top: 45px;
+  display: none;
+  width: 332px;
+  height: 438px;
+}
+@media (max-width: 376px) {
+  .osnova_photo-mobile {
+    display: cont;
+  }
+}
+
+.obuch {
+  background-color: #B59797;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.obuch_kamil {
+  max-width: 1170px;
+}
+@media (max-width: 1025px) {
+  .obuch_kamil {
+    max-width: 375px;
+  }
+}
+.obuch_block {
+  padding-top: 116px;
+}
+@media (max-width: 376px) {
+  .obuch_block {
+    padding: 51px 37px 80px;
+  }
+}
+.obuch_block_zagalovog {
+  font-size: 80px;
+  font-weight: 600;
+}
+@media (max-width: 376px) {
+  .obuch_block_zagalovog {
+    font-size: 40px;
+  }
+}
+.obuch_block_cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  font-weight: 400;
+}
+.obuch_block_cont_text {
+  font-size: 18px;
+}
+.obuch_block_cont_simvol {
+  font-size: 30px;
+}
+.obuch_tarifi {
+  margin: 160px 0 0 -72px;
+  background-color: #FBF6F6;
+  color: #504949;
+  width: 1418px;
+  height: 1281px;
+}
+@media (max-width: 376px) {
+  .obuch_tarifi {
+    width: 375px;
+    height: 850px;
+    margin: 0;
+  }
+}
+.obuch_tarifi_kamil {
+  padding: 116px 0 0 73px;
+}
+@media (max-width: 376px) {
+  .obuch_tarifi_kamil {
+    padding: 65px 37px 0;
+    height: 1162px;
+  }
+}
+.obuch_tarifi_zagalovog {
+  font-size: 80px;
+  font-weight: 600;
+}
+@media (max-width: 376px) {
+  .obuch_tarifi_zagalovog {
+    font-size: 40px;
+  }
+}
+.obuch_tarifi_conts {
+  display: flex;
+}
+@media (max-width: 376px) {
+  .obuch_tarifi_conts {
+    flex-direction: column;
+    max-width: 317px;
+  }
+}
+.obuch_tarifi_cont {
+  color: #FFF;
+  width: 560px;
+  height: 350px;
+  background-color: #B59797;
+  padding: 39px 0 0 32px;
+  margin-top: 27px;
+  margin-left: 40px;
+}
+@media (max-width: 376px) {
+  .obuch_tarifi_cont {
+    width: 318px;
+    padding: 27px 0 90px 20px;
+    margin-top: 73px;
+    margin-left: 0;
+  }
+}
+.obuch_tarifi_cont_zagalovog {
+  font-size: 20px;
+  font-weight: 700;
+}
+@media (max-width: 376px) {
+  .obuch_tarifi_cont_zagalovog {
+    margin-left: 20px;
+    padding-right: 37px;
+  }
+}
+.obuch_tarifi_cont_plusi {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media (max-width: 376px) {
+  .obuch_tarifi_cont_plusi {
+    padding-right: 37px;
+  }
+}
+.obuch_tarifi_cont_plusi_inform {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+}
+.obuch_tarifi_cont_zxena {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.obuch_tarifi_cont_cnopka {
+  border: 2px solid #8D6B5D;
+  color: #504949;
+  padding: 17px 81px;
+  margin-top: 41px;
+  margin-left: 285px;
+  font-size: 18px;
+  font-weight: 700;
+}
+@media (max-width: 376px) {
+  .obuch_tarifi_cont_cnopka {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 376px) {
+  .obuch_tarifi_cont:first-child {
+    margin-top: 43px;
+  }
+}
+.obuch_tarifi_dopol {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 62px;
+}
+@media (max-width: 376px) {
+  .obuch_tarifi_ps {
+    max-width: 326px;
+  }
+}
+
+.white_photo.png {
+  margin-left: -64px;
+}
+@media (max-width: 376px) {
+  .white_photo.png {
+    display: none;
+  }
+}
+
+.white_smal {
+  display: none;
+}
+@media (max-width: 376px) {
+  .white_smal {
+    display: cont;
+    padding-top: 44px;
+    margin-left: -37px;
+  }
+}
+
+.itog {
+  padding-top: 96px;
+  display: flex;
+}
+.itog_text {
+  margin-top: 22px;
+  margin-left: 100px;
+  width: 560px;
+}
+@media (max-width: 376px) {
+  .itog_text {
+    width: 304px;
+    margin-left: 37px;
+  }
+}
+.itog_text_zagalovog {
+  font-size: 40px;
+  font-weight: 700;
+}
+.itog_text_conts {
+  padding-top: 22px;
+}
+.itog_text_cont {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.itog_text_cont_zagalovog {
+  font-size: 50px;
+  font-weight: 400;
+}
+.itog_text_cont_podzagalovog {
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 528px;
+  line-height: 27px;
+}
+.itog_text_cont:first-child {
+  padding-top: 0;
+}
+.itog_text_check_otzivi {
+  display: flex;
+  padding-top: 32px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #504949;
+  text-decoration: underline;
+}
+
+.buttons {
+  margin-top: 152px;
+  margin-left: -100px;
+  padding: 163px 0 160px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 376px) {
+  .buttons {
+    margin-top: 50px;
+  }
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info_wrap {
+  max-width: 1170px;
+  padding: 160px 132px;
+}
+@media (max-width: 1025px) {
+  .info_wrap {
+    max-width: 289px;
+    padding: 51px 37px;
+  }
+}
+.info_title {
+  padding-top: 5px;
+}
+.info_title_text {
+  font-size: 80px;
+  font-weight: 600;
+}
+@media (max-width: 1025px) {
+  .info_title_text {
+    font-size: 40px;
+  }
+}
+.info_title_comment {
+  padding-left: 107px;
+  font-size: 18px;
+  font-weight: 700;
+}
+@media (max-width: 376px) {
+  .info_title_comment {
+    padding: 0;
+  }
+}
+.info_subtitle {
+  line-height: 27px;
+  padding-top: 5px;
+  max-width: 553px;
+}
+@media (max-width: 376px) {
+  .info_subtitle {
+    max-width: 317px;
+  }
+}
+.info_subtitle_comment {
+  line-height: 27px;
+  padding-top: 20px;
+  max-width: 566px;
+}
+@media (max-width: 376px) {
+  .info_subtitle_comment {
+    max-width: 317px;
+  }
+}
+.info_info {
+  display: flex;
+  padding-top: 7px;
+}
+@media (max-width: 376px) {
+  .info_info {
+    max-width: 317px;
+  }
+}
+.info_info_block {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-weight: 400;
+  padding-left: 40px;
+}
+.info_info_block_title {
+  font-size: 50px;
+}
+.info_info_block_subtitle {
+  font-size: 18px;
+}
+.info_info_block:first-child {
+  padding: 0;
+}
+.info_recomend {
+  padding-top: 38px;
+}
+@media (max-width: 376px) {
+  .info_recomend {
+    max-width: 317px;
+  }
+}
+.info_recomend_title {
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 517px;
+}
+.info_recomend_blocks {
+  padding-top: 17px;
+}
+.info_recomend_block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 419px;
+  font-weight: 400;
+}
+.info_recomend_block_title {
+  font-size: 50px;
+}
+@media (max-width: 376px) {
+  .info_recomend_block_title {
+    display: flex;
+    align-self: flex-start;
+    margin-top: -15px;
+  }
+}
+.info_recomend_block_subtitle {
+  line-height: 27px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.info_block {
+  display: flex;
+}
+.info_block_text {
+  display: flex;
+  flex-direction: column;
+}
+.info_photo {
+  padding: 17px 0 0 79px;
+  width: 45%;
+  height: 45%;
+}
+@media (max-width: 376px) {
+  .info_photo {
+    display: none;
+  }
+}
+.info_photo-mobile {
+  padding-top: 45px;
+  display: none;
+  width: 332px;
+  height: 438px;
+}
+@media (max-width: 376px) {
+  .info_photo-mobile {
+    display: block;
+  }
+}
+
+.buttons_kamil {
+  padding-left: 100px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+@media (max-width: 376px) {
+  .buttons_kamil {
+    width: 375px;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 563px;
+  height: 103px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 40px 40px 39px 94px;
+}
+@media (max-width: 376px) {
+  .button {
+    width: 299px;
+    padding: 40px 35px;
+  }
+}
+
+.button:first-child {
+  margin-top: 0;
+}
+
+.bg {
+  background-color: #B59797;
+  height: 582.5px;
+}
+@media (max-width: 376px) {
+  .bg {
+    margin-top: 1583px;
+  }
+}
+.bg_height {
+  height: 582.5px;
+}
+@media (max-width: 376px) {
+  .bg {
+    height: 440px;
+  }
+}
+
+.footer {
+  background-color: #3C2A2A;
+  color: #FBF6F6;
+}
+.footer_kamil {
+  padding: 103px 140px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 376px) {
+  .footer_kamil {
+    padding: 76px 83px 55px 40px;
+  }
+}
+.footer_conts {
+  display: flex;
+  justify-content: space-between;
+  width: 1418px;
+}
+@media (max-width: 376px) {
+  .footer_conts {
+    flex-direction: column;
+  }
+}
+@media (max-width: 376px) {
+  .footer_conts a, .footer p {
+    padding-top: 15px;
+  }
+}
+.footer_left-cont img {
+  padding-top: 18px;
+}
+.footer_center-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: underline;
+}
+@media (max-width: 376px) {
+  .footer_center-cont {
+    align-items: unset;
+  }
+}
+.footer_right-cont {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  text-decoration: underline;
+}
+@media (max-width: 376px) {
+  .footer_right-cont {
+    align-items: unset;
+  }
+}
+
+.white {
+  color: #FBF6F6;
+}
+
+.pad {
+  padding-top: 18px;
+}
+h1{
+  margin-top: 27px;
+}
+hr{
+  min-width: 20px;
+}
+.minus{
+  padding-left: 8px; 
+  text-decoration: line-through;
+}
+.neminus{
+  padding-left: 8px;
+}
